@@ -1,0 +1,122 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+* {
+    font-family: "Pretendard",serif;
+}
+body {
+    background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bg-grid.png");
+}
+.pro {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+.profile {
+    width: 58px;
+    height: 58px;
+    border-radius: 100%;
+    border: 1.5px solid tomato;
+    background-image: url('profile.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.headcopy {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 260px;
+}
+.main {
+    color : tomato;
+    font-size: 27px;
+    size : 20px;
+    font-weight: 800;
+    margin: 0%;
+}
+.sub {
+    color : #B17E4B;
+    font-size: 14px;
+    font-weight: 500;
+    size : 14px;
+    margin-top: 10px;
+}
+.minis {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 7px;
+    margin-bottom: 68px;
+}
+.minis > a {
+    width: 102px;
+    height: 48px;
+    border-radius: 32px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    white-space:pre-wrap;
+}
+.bucketlist {
+    background: linear-gradient(287.96deg, #fb9578 15.1%, #fbdbc3 83.32%), #ffd8c2;
+    color:#ca2d0b;
+}
+.notion {
+    background: linear-gradient(287.96deg, #f95f40 15.1%, #fb9578 83.32%), #fb9578;
+    color:#FFFFFF;
+}
+.blog {
+    background: linear-gradient(287.96deg, rgba(0, 0, 0, 0.16) 15.1%, #f95f40 83.32%), #f95f40;
+    color:#FFFFFF;
+}
+.wrap {
+    width: 320px;
+    margin: 30px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bigs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+}
+.bigs > a {
+    width: 123px;
+    background-color: white;
+    border: 1.5px solid tomato;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-decoration: none;
+    padding: 20px 16px 16px 16px;
+    border-radius: 8px;
+}
+.name {
+    font-size: 22px;
+    font-weight: 700;
+    color: #222222;
+    margin-bottom: 45px;
+}
+.desc {
+    font-size: 12px;
+    font-weight: 500;
+    color: #555555;
+    margin-bottom: 24px;
+}
+.btn {
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #2D0001;
+    border-radius: 4px;
+    padding: 5px 4px 5px 4px;
+}
